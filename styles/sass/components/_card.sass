@@ -1,0 +1,58 @@
+.container
+    width: 85%
+    margin: 3rem auto
+    border-radius: 0.5rem
+    overflow: hidden
+    .card
+        width: 100%
+        height: auto
+        padding: 4.5rem
+        &.one
+            background-color: $MainColor
+        &.two
+            background-color: $SecondaryColor
+        &.three
+            background-color: $ThirdColor
+        .car
+            width: 5.3rem   
+            img
+                width: 100%
+        .title
+            font-family: $FontTwo
+            text-transform: uppercase
+            font-size: 3.5rem
+            color: $SecondParagraph
+            margin: 2.5rem 0rem
+        .content
+            font-family: $FontOne
+            color: $Paragraph
+            font-size: 1.5rem
+            line-height: 2.5rem
+            margin-bottom: 1.5rem
+            width: 100%
+        .button
+            font-family: $FontOne
+            border: 0.2rem solid #ffffff00
+            border-radius: 2.5rem 
+            display: inline-block
+            text-decoration: none
+            background-color: $SecondParagraph
+            padding: 1.3rem 2.5rem
+            font-size: 1.5rem
+            margin-top: 0.5rem
+            text-transform: capitalize
+            &.one
+                color: $MainColor
+            &.two
+                color: $SecondaryColor
+            &.three
+                color: $ThirdColor
+            &:active
+                color: $SecondParagraph
+                border: 0.2rem solid $SecondParagraph
+                &.one
+                    background-color: $MainColor
+                &.two
+                    background-color: $SecondaryColor
+                &.three
+                    background-color: $ThirdColor

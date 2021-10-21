@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.container {
+  width: 85%;
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+  overflow: hidden; }
+  .container .card {
+    width: 100%;
+    height: auto;
+    padding: 4.5rem; }
+    .container .card.one {
+      background-color: #e38826; }
+    .container .card.two {
+      background-color: #006970; }
+    .container .card.three {
+      background-color: #004241; }
+    .container .card .car {
+      width: 5.3rem; }
+      .container .card .car img {
+        width: 100%; }
+    .container .card .title {
+      font-family: "Big Shoulders Display", cursive;
+      text-transform: uppercase;
+      font-size: 3.5rem;
+      color: #f2f2f2;
+      margin: 2.5rem 0rem; }
+    .container .card .content {
+      font-family: "Lexend Deca", sans-serif;
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      margin-bottom: 1.5rem;
+      width: 100%; }
+    .container .card .button {
+      font-family: "Lexend Deca", sans-serif;
+      border: 0.2rem solid #ffffff00;
+      border-radius: 2.5rem;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #f2f2f2;
+      padding: 1.3rem 2.5rem;
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+      text-transform: capitalize; }
+      .container .card .button.one {
+        color: #e38826; }
+      .container .card .button.two {
+        color: #006970; }
+      .container .card .button.three {
+        color: #004241; }
+      .container .card .button:active {
+        color: #f2f2f2;
+        border: 0.2rem solid #f2f2f2; }
+        .container .card .button:active.one {
+          background-color: #e38826; }
+        .container .card .button:active.two {
+          background-color: #006970; }
+        .container .card .button:active.three {
+          background-color: #004241; }
+
+/*# sourceMappingURL=style.css.map */
