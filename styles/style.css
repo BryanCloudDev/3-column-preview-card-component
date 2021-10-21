@@ -9,7 +9,7 @@ html {
 .container {
   width: 85%;
   margin: 3rem auto;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   overflow: hidden; }
   .container .card {
     width: 100%;
@@ -45,7 +45,7 @@ html {
       display: inline-block;
       text-decoration: none;
       background-color: #f2f2f2;
-      padding: 1.3rem 2.5rem;
+      padding: 1.3rem 2.7rem;
       font-size: 1.5rem;
       margin-top: 0.5rem;
       text-transform: capitalize; }
